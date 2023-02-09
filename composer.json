@@ -1,0 +1,30 @@
+{
+    "name": "ninja/cms-block-override",
+    "description": "Overriding existings CMS-Blocks example",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ninja Army (Joschi Mehta)"
+        }
+    ],
+    "require": {
+        "shopware/core": "*",
+        "shopware/administration": "*",
+        "shopware/storefront": "*"
+    },
+    "extra": {
+        "shopware-plugin-class": "NINJA\\CmsBlockOverride\\CmsBlockOverride",
+        "copyright": "(c) Ninja Army",
+        "label": {
+            "de-DE": "CMS Block überschreiben Beispiel",
+            "en-GB": "CMS Block override Example"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "NINJA\\CmsBlockOverride\\": "src/"
+        }
+    }
+}
